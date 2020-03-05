@@ -1,0 +1,55 @@
+body {
+    background-color: #EEE;
+    font-family: sans-serif;
+    padding: 50px;
+}
+
+a {
+    display: inline-block;
+    height: 30px;
+    margin: auto;
+    color: inherit;
+    text-decoration: none;
+    background-color: #FFF;
+    padding: 10px 15px;
+    border-right: solid 0.5px #EEE;
+}
+
+.menu {
+    width: auto;
+    height: 50px;
+    position: relative;
+    z-index: 3;
+    background-color: #FFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin-bottom: 20px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.main {
+    float: left;
+    padding: 0 20px;
+    width: 70%;
+    background-color: #FFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.sidebar {
+    float: right;
+    width: 25%;
+    padding: 0 20px;
+}
+
+.bloc {
+    background-color: #FFF;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
